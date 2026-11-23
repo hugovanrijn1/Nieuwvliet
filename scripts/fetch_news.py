@@ -10,7 +10,7 @@ from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "data" / "news.json"
 FEEDS = [
-    ("tworiversmarathon.nl", "https://www.tworiversmarathon.nl/feed/"),
+    ("tworiversmarathon.nl", "https://tworiversmarathon.nl/category/nieuws/feed/"),
     ("tworiversmarathon.nl", "https://tworiversmarathon.nl/feed/"),
     ("Google News", "https://news.google.com/rss/search?q=%22Two+Rivers+Marathon%22+Zaltbommel&hl=nl&gl=NL&ceid=NL:nl"),
 ]
@@ -42,7 +42,7 @@ def fetch(name, url):
         src = it.find("source")
         items.append({
             "title": title,
-            "url": it.findtext("link"),
+            "url": re.sub(r"\?utm_[^#]*", "", it.findtext("link") or ""),
             "date": parse_date(it.findtext("pubDate") or ""),
             "summary": clean(it.findtext("description")),
             "source": src.text if src is not None and src.text else name,

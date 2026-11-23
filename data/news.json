@@ -1,10 +1,41 @@
 {
- "updated": "2026-11-23T15:00:00",
- "source": "seed",
- "note": "Startinhoud. De GitHub Action haalt automatisch nieuws op (feed van tworiversmarathon.nl, met Google News als fallback).",
+ "updated": "2026-11-23T16:53:34",
+ "source": "tworiversmarathon.nl",
  "items": [
-  {"title": "Two Rivers Marathon 2027: zondag 21 maart in Zaltbommel", "date": "2026-11-23", "url": "https://trainerday.com/events/nl/two-rivers-marathon-2027", "summary": "Start en finish in het historische centrum van Zaltbommel; het parcours loopt grotendeels over de dijken langs Waal en Maas. Maximaal ca. 1.000–1.500 deelnemers, ook Duo-variant.", "source": "trainerday.com"},
-  {"title": "Kwalificatiewedstrijd voor Two Oceans en Comrades", "date": "2026-11-23", "url": "https://www.ahotu.com/event/two-rivers-marathon", "summary": "De Two Rivers Marathon is een officiële kwalificatiewedstrijd voor de Two Oceans en de Comrades Marathon in Zuid-Afrika.", "source": "ahotu.com"},
-  {"title": "Evenementenvergunning: start/finish op de Markt, route door Zaltbommel en Maasdriel", "date": "2025-12-01", "url": "https://zoek.officielebekendmakingen.nl/gmb-2025-533732.pdf", "summary": "Gemeentelijke bekendmaking over de vergunningaanvraag (editie 2026): start en finish op de Markt in Zaltbommel, route door de gemeenten Zaltbommel en Maasdriel.", "source": "officielebekendmakingen.nl"}
+  {
+   "title": "De Top-10 van Two Rivers",
+   "url": "https://tworiversmarathon.nl/de-top-10-van-two-rivers/",
+   "date": "2026-11-15",
+   "summary": "12 jaar geleden liepen een paar jongens uit Zaltbommel de Two Oceans Maraton, in Kaapstad. En helemaal betoverd kwamen ze terug, medaille op zak. Zó anders dan alle andere marathons die ze ooit gelopen hadden. Dát wilden wij ook in Zaltbommel. En zo is de Two Rivers Marathon gebo…",
+   "source": "tworiversmarathon.nl"
+  },
+  {
+   "title": "BREAKING NEWS: Extra onderdeel bij de Two Rivers Marathon",
+   "url": "https://tworiversmarathon.nl/breaking-news-extra-onderdeel-bij-de-two-rivers-marathon/",
+   "date": "2026-09-24",
+   "summary": "In 2027 voegen we een nieuw onderdeel toe aan de Two Rivers Marathon: de Luijendijk Mobiel Rollersmarathon! Daar zijn we ontzettend trots op. Want waarom zou de magie van een marathon alleen voor lopers zijn? Vorig jaar was Ilze onze eerste finisher op de DUO marathon die met een…",
+   "source": "tworiversmarathon.nl"
+  },
+  {
+   "title": "8 november: start je voorbereiding met de eerste trainingrun",
+   "url": "https://tworiversmarathon.nl/8-november-start-je-voorbereiding-met-de-eerste-trainingrun/",
+   "date": "2026-09-23",
+   "summary": "De één gaat naar de kroeg voor de gezelligheid, wij gaan naar de kroeg om hard te lopen én voor de gezelligheid. In aanloop naar Two Rivers Marathon organiseren we vier trainingruns, waar je gezellig samen je trainingkilometers maakt en bovendien het parcours verkent. We starten …",
+   "source": "tworiversmarathon.nl"
+  },
+  {
+   "title": "Dat willen we nog een keer! Volgende editie: 21 maart 2027",
+   "url": "https://tworiversmarathon.nl/datwillenwenogeenkeer/",
+   "date": "2026-03-16",
+   "summary": "Die datum mag alvast in jouw agenda. Want na de editie van 15 maart 2026 denken wij: dit willen we nog een keer! Het was een fantastische dag, voor deelnemers, supporters en onze vrijwilligers. Er werd ook hard gelopen, maar liefst twee parcoursrecords sneuvelden: Stef Simons uit…",
+   "source": "tworiversmarathon.nl"
+  },
+  {
+   "title": "Van en naar het halve marathonpunt: we nemen de bus.",
+   "url": "https://tworiversmarathon.nl/bus-2/",
+   "date": "2026-03-12",
+   "summary": "Alléén voor deelnemers aan de DUO marathon. Gratis busvervoer van en naar het wisselpunt op 21 km. Omdat het daar druk is en er geen parkeerruimte is, is het niet toegestaan om met eigen auto naar het wisselpunt te komen. De bus vertrekt vanaf de Steenweg, ter hoogte van ’t Zusje…",
+   "source": "tworiversmarathon.nl"
+  }
  ]
 }

@@ -6,7 +6,15 @@
   "name": "Two Rivers Marathon",
   "date": "2027-03-21",
   "place": "Zaltbommel",
-  "km": 42.195
+  "km": 42.195,
+  "start": "10:00",
+  "cutoffs": {
+   "halve marathon (21 km)": "12:30",
+   "32 km": "13:45",
+   "finish": "15:00"
+  },
+  "info_url": "https://tworiversmarathon.nl/info-2027/",
+  "route_url": "https://tworiversmarathon.nl/route2027/"
  },
  "goal_time": "3:40:00",
  "weeks": [
@@ -169,9 +177,10 @@
     {
      "date": "2026-12-13",
      "type": "long",
-     "title": "Lange duurloop",
+     "title": "Trainingrun Two Rivers",
      "km": 22,
-     "desc": "Rustig (E)"
+     "desc": "Two Rivers trainingrun #2 (parcoursverkenning). Start 10:00, pacers 5:00/5:30/6:00. Kies de langste afstand en loop rustig in de 5:30-groep, eventueel met kilometers ervoor of erna tot het geplande totaal.",
+     "event": true
     }
    ]
   },
@@ -444,9 +453,10 @@
     {
      "date": "2027-01-17",
      "type": "long",
-     "title": "Lange duurloop",
+     "title": "Trainingrun Two Rivers",
      "km": 18,
-     "desc": "Rustig (E)"
+     "desc": "Two Rivers trainingrun #3 (parcoursverkenning). Start 10:00. Herstelweek: kies de kortere afstand of loop rustig mee in de 6:00-groep.",
+     "event": true
     }
    ]
   },
@@ -664,9 +674,10 @@
     {
      "date": "2027-02-14",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 21,
-     "desc": "Toetswedstrijd halve marathon of 21 km met 15 km op MP — test schoenen/voeding"
+     "title": "Trainingrun Two Rivers",
+     "km": 30,
+     "desc": "Two Rivers trainingrun #4 (parcoursverkenning). Start 10:00. Vorig jaar kon je 15 of 30 km kiezen. Dit vervangt de toetswedstrijd: loop de lange afstand, het eerste deel rustig en het laatste deel in de 5:00/5:30-groep op MP. Test hier je schoenen en voeding.",
+     "event": true
     }
    ]
   },
