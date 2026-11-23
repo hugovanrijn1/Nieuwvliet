@@ -1,0 +1,10 @@
+{
+ "updated": "2026-11-23T15:00:00",
+ "source": "seed",
+ "note": "Startinhoud. De GitHub Action haalt automatisch nieuws op (feed van tworiversmarathon.nl, met Google News als fallback).",
+ "items": [
+  {"title": "Two Rivers Marathon 2027: zondag 21 maart in Zaltbommel", "date": "2026-11-23", "url": "https://trainerday.com/events/nl/two-rivers-marathon-2027", "summary": "Start en finish in het historische centrum van Zaltbommel; het parcours loopt grotendeels over de dijken langs Waal en Maas. Maximaal ca. 1.000–1.500 deelnemers, ook Duo-variant.", "source": "trainerday.com"},
+  {"title": "Kwalificatiewedstrijd voor Two Oceans en Comrades", "date": "2026-11-23", "url": "https://www.ahotu.com/event/two-rivers-marathon", "summary": "De Two Rivers Marathon is een officiële kwalificatiewedstrijd voor de Two Oceans en de Comrades Marathon in Zuid-Afrika.", "source": "ahotu.com"},
+  {"title": "Evenementenvergunning: start/finish op de Markt, route door Zaltbommel en Maasdriel", "date": "2025-12-01", "url": "https://zoek.officielebekendmakingen.nl/gmb-2025-533732.pdf", "summary": "Gemeentelijke bekendmaking over de vergunningaanvraag (editie 2026): start en finish op de Markt in Zaltbommel, route door de gemeenten Zaltbommel en Maasdriel.", "source": "officielebekendmakingen.nl"}
+ ]
+}

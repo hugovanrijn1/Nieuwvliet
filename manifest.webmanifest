@@ -1,0 +1,9 @@
+{
+  "name": "Two Rivers Logboek",
+  "short_name": "Two Rivers",
+  "start_url": "./#vandaag",
+  "display": "standalone",
+  "background_color": "#f3f5f4",
+  "theme_color": "#16425b",
+  "icons": [{ "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
