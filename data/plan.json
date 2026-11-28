@@ -1,7 +1,7 @@
 {
- "source": "voorbeeld",
- "name": "Voorbeeldschema Two Rivers 2027 (17 weken)",
- "note": "Dit is een voorbeeldschema op basis van je Strava-patroon, NIET je ProRun-schema. Importeer je ProRun-trainingen via 'Schema → Importeren' of vervang dit bestand.",
+ "source": "ProRun",
+ "name": "ProRun-schema Two Rivers 2027 (16 weken)",
+ "note": "Geïmporteerd uit Trainingschema_marathon.txt (ProRun). Wedstrijdtempo 5:20 min/km ≈ 3:45. Titels t/m 24 dec gecontroleerd tegen de Final Surge-agenda.",
  "race": {
   "name": "Two Rivers Marathon",
   "date": "2027-03-21",
@@ -16,945 +16,590 @@
   "info_url": "https://tworiversmarathon.nl/info-2027/",
   "route_url": "https://tworiversmarathon.nl/route2027/"
  },
- "goal_time": "3:40:00",
+ "goal_time": "3:45:00",
  "weeks": [
   {
    "week": 1,
-   "start": "2026-11-23",
+   "start": "2026-11-30",
    "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-11-23",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-11-24",
+     "date": "2026-12-01",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-11-25",
+     "date": "2026-12-03",
      "type": "quality",
-     "title": "Fartlek",
-     "km": 11,
-     "desc": "2 km inlopen, 10× 1' vlot (T) / 1' dribbel, uitlopen"
+     "title": "II · Interval",
+     "km": 9.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 10 x (200 m op 4:25 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-11-26",
+     "date": "2026-12-04",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-11-27",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2026-11-28",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2026-11-29",
+     "date": "2026-12-06",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 18,
-     "desc": "Rustig, laatste 2 km iets vlotter"
+     "title": "IV · Lange duurloop met strides",
+     "km": 16.0,
+     "desc": "16 km op 5:50 - 6:20 min/km, verdeeld over km 15 en 16 doe je 4 strides",
+     "fs": true
     }
    ]
   },
   {
    "week": 2,
-   "start": "2026-11-30",
+   "start": "2026-12-07",
    "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-11-30",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-12-01",
+     "date": "2026-12-08",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-02",
+     "date": "2026-12-10",
      "type": "quality",
-     "title": "Heuvel-/kracht",
-     "km": 11,
-     "desc": "3 km inlopen, 8× 45\" heuvel of trap, rustig terug, uitlopen"
+     "title": "II · Interval",
+     "km": 9.8,
+     "desc": "3 km op 5:50 - 6:20 min/km | 12 x (200 m op 4:25 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-03",
+     "date": "2026-12-11",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-04",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2026-12-05",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2026-12-06",
+     "date": "2026-12-13",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 20,
-     "desc": "Rustig (E)"
+     "title": "IV · Lange duurloop met strides",
+     "km": 18.0,
+     "desc": "18 km op 5:50 - 6:20 min/km, verdeeld over km 17 en 18 doe je 4 strides",
+     "fs": true
     }
    ]
   },
   {
    "week": 3,
-   "start": "2026-12-07",
+   "start": "2026-12-14",
    "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-12-07",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-12-08",
+     "date": "2026-12-15",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-09",
+     "date": "2026-12-17",
      "type": "quality",
-     "title": "Tempo",
-     "km": 12,
-     "desc": "3 km inlopen, 3× 10' tempo (T) / 2' dribbel, uitlopen"
+     "title": "II · Interval",
+     "km": 9.8,
+     "desc": "3 km op 5:50 - 6:20 min/km | 12 x (200 m op 4:25 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-10",
+     "date": "2026-12-18",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-11",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2026-12-12",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2026-12-13",
+     "date": "2026-12-20",
      "type": "long",
-     "title": "Trainingrun Two Rivers",
-     "km": 22,
-     "desc": "Two Rivers trainingrun #2 (parcoursverkenning). Start 10:00, pacers 5:00/5:30/6:00. Kies de langste afstand en loop rustig in de 5:30-groep, eventueel met kilometers ervoor of erna tot het geplande totaal.",
-     "event": true
+     "title": "IV · Lange duurloop met blokken op wedstrijdtempo",
+     "km": 18.0,
+     "desc": "4 km op 5:50 - 6:20 min/km | 3 x (3 km op 5:20 min/km + 1 km op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km",
+     "fs": true
     }
    ]
   },
   {
    "week": 4,
-   "start": "2026-12-14",
-   "phase": "Herstel",
+   "start": "2026-12-21",
+   "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-12-14",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-12-15",
+     "date": "2026-12-22",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km",
+     "fs": true
     },
     {
-     "date": "2026-12-16",
+     "date": "2026-12-24",
      "type": "quality",
-     "title": "Strides",
-     "km": 9,
-     "desc": "Rustig (E) met 6× 20\" versnellingen"
+     "title": "II · Wisselduurloop",
+     "km": 13.0,
+     "desc": "3 km op 6:20 - 6:50 min/km | 4 km op 5:50 - 6:20 min/km | 3 km op 5:20 min/km | 3 km op wedstrijdtempo",
+     "fs": true
     },
     {
-     "date": "2026-12-17",
+     "date": "2026-12-25",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-18",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2026-12-19",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 8,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2026-12-20",
+     "date": "2026-12-27",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 16,
-     "desc": "Rustig (E), kort"
+     "title": "IV · Lange duurloop",
+     "km": 20.0,
+     "desc": "20 km op 5:50 - 6:20 min/km, verdeeld over km 19 en 20 doe je 4 strides"
     }
    ]
   },
   {
    "week": 5,
-   "start": "2026-12-21",
-   "phase": "Opbouw",
+   "start": "2026-12-28",
+   "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-12-21",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-12-22",
+     "date": "2026-12-29",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-23",
+     "date": "2026-12-31",
      "type": "quality",
-     "title": "Intervallen",
-     "km": 12,
-     "desc": "3 km inlopen, 6× 1000 m (I) / 400 m dribbel, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 10.4,
+     "desc": "2 km op 5:50 - 6:20 min/km | 1200 m op 5:05 min/km | 400 m op 6:20 - 6:50 min/km | 8 x (400 m op 4:35 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-24",
+     "date": "2027-01-01",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-25",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2026-12-26",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2026-12-27",
+     "date": "2027-01-03",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 24,
-     "desc": "Rustig (E) — kerstweek: schuif gerust een dag"
+     "title": "IV · Lange duurloop",
+     "km": 20.0,
+     "desc": "20 km op 5:50 - 6:20 min/km, verdeeld over km 19 en 20 doe je 4 strides"
     }
    ]
   },
   {
    "week": 6,
-   "start": "2026-12-28",
-   "phase": "Opbouw",
+   "start": "2027-01-04",
+   "phase": "Basis",
    "sessions": [
     {
-     "date": "2026-12-28",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2026-12-29",
+     "date": "2027-01-05",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-30",
+     "date": "2027-01-07",
      "type": "quality",
-     "title": "Tempo",
-     "km": 13,
-     "desc": "3 km inlopen, 2× 15' tempo (T) / 3' dribbel, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 10.4,
+     "desc": "2 km op 5:50 - 6:20 min/km | 1200 m op 5:05 min/km | 400 m op 6:20 - 6:50 min/km | 8 x (400 m op 4:35 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2026-12-31",
+     "date": "2027-01-08",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km, verdeeld over km 7 en 8 doe je 4 strides"
     },
     {
-     "date": "2027-01-01",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-01-02",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-01-03",
+     "date": "2027-01-10",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 20,
-     "desc": "Rustig met laatste 5 km op MP"
+     "title": "IV · Lange duurloop met tempoblokken",
+     "km": 22.0,
+     "desc": "5 km op 5:50 - 6:20 min/km | 5 km op 5:20 min/km - 1 km op 5:50 - 6:20 min/km | 3 km op 5:20 min/km - 1 km op 5:50 - 6:20 min/km | 2 km op 5:20 min/km | 5 km op 5:50 - 6:20 min/km"
     }
    ]
   },
   {
    "week": 7,
-   "start": "2027-01-04",
+   "start": "2027-01-11",
    "phase": "Opbouw",
    "sessions": [
     {
-     "date": "2027-01-04",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-01-05",
+     "date": "2027-01-12",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-06",
+     "date": "2027-01-14",
+     "type": "easy",
+     "title": "II · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
+    },
+    {
+     "date": "2027-01-15",
      "type": "quality",
-     "title": "Intervallen",
-     "km": 12,
-     "desc": "3 km inlopen, 5× 1200 m (I) / 400 m dribbel, uitlopen"
+     "title": "III · Tempoloop",
+     "km": 10.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 4 km op 5:20 min/km | 3 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-07",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
-    },
-    {
-     "date": "2027-01-08",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-01-09",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-01-10",
+     "date": "2027-01-17",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 26,
-     "desc": "Rustig (E) met km 14–22 op MP"
+     "title": "IV · Lange duurloop",
+     "km": 20.0,
+     "desc": "20 km op 5:50 - 6:20 min/km"
     }
    ]
   },
   {
    "week": 8,
-   "start": "2027-01-11",
-   "phase": "Herstel",
+   "start": "2027-01-18",
+   "phase": "Opbouw",
    "sessions": [
     {
-     "date": "2027-01-11",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-01-12",
+     "date": "2027-01-19",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-13",
+     "date": "2027-01-21",
      "type": "quality",
-     "title": "Strides",
-     "km": 10,
-     "desc": "Rustig (E) met 6× 20\" versnellingen"
+     "title": "II · Interval / tempo",
+     "km": 10.8,
+     "desc": "2 km op 5:50 - 6:20 min/km | 2 x (1600 m op 5:05 min/km + 400 m op 6:20 - 6:50 min/km) | 2 x (2000 m op 5:20 min/km + 400 m op 6:20 - 6:50 min/km)"
     },
     {
-     "date": "2027-01-14",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E)"
+     "date": "2027-01-22",
+     "type": "quality",
+     "title": "III · Tempoloop",
+     "km": 10.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 4 km op 5:20 min/km | 3 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-15",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-01-16",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 8,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-01-17",
+     "date": "2027-01-24",
      "type": "long",
-     "title": "Trainingrun Two Rivers",
-     "km": 18,
-     "desc": "Two Rivers trainingrun #3 (parcoursverkenning). Start 10:00. Herstelweek: kies de kortere afstand of loop rustig mee in de 6:00-groep.",
-     "event": true
+     "title": "IV · Lange duurloop",
+     "km": 24.0,
+     "desc": "24 km op 5:50 - 6:20 min/km, verdeeld over km 23 en 24 doe je 4 strides"
     }
    ]
   },
   {
    "week": 9,
-   "start": "2027-01-18",
+   "start": "2027-01-25",
    "phase": "Opbouw",
    "sessions": [
     {
-     "date": "2027-01-18",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-01-19",
+     "date": "2027-01-26",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-20",
+     "date": "2027-01-28",
      "type": "quality",
-     "title": "Tempo",
-     "km": 14,
-     "desc": "3 km inlopen, 25' doorlopend tempo (T), uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 12.6,
+     "desc": "2 km op 5:50 - 6:20 min/km | 2 x (1000 m op 5:05 min/km + 1000 m op 5:20 min/km + 800 m op 5:05 min/km + 800 m op 5:20 min/km + 600 m op 5:05 min/km + 600 m op 5:20 min/km) | 1 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-21",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "date": "2027-01-29",
+     "type": "quality",
+     "title": "III · Tempoloop",
+     "km": 11.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 5 km op 5:20 min/km | 3 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-22",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-01-23",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-01-24",
+     "date": "2027-01-31",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 28,
-     "desc": "Rustig (E)"
+     "title": "IV · Lange duurloop",
+     "km": 26.0,
+     "desc": "26 km op 5:50 - 6:20 min/km, verdeeld over km 25 en 26 doe je 4 strides"
     }
    ]
   },
   {
    "week": 10,
-   "start": "2027-01-25",
+   "start": "2027-02-01",
    "phase": "Opbouw",
    "sessions": [
     {
-     "date": "2027-01-25",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-01-26",
+     "date": "2027-02-02",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-27",
+     "date": "2027-02-04",
      "type": "quality",
-     "title": "Intervallen",
-     "km": 13,
-     "desc": "3 km inlopen, 4× 1600 m (I) / 600 m dribbel, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 11.2,
+     "desc": "3 km op 5:50 - 6:20 min/km | 6 x (800 m op 4:50 min/km + 400 m op 6:20 - 6:50 min/km) | 1 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-01-28",
+     "date": "2027-02-05",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km, verdeeld over km 9 en 10 doe je 4 strides"
     },
     {
-     "date": "2027-01-29",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-01-30",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-01-31",
+     "date": "2027-02-07",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 24,
-     "desc": "Rustig met 12 km op MP"
+     "title": "IV · Lange duurloop met tempoblokken",
+     "km": 28.0,
+     "desc": "4 km op 5:50 - 6:20 min/km | 6 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 5 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 4 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 3 km op 5:20 min/km | 3 km op 5:50 - 6:20 min/km"
     }
    ]
   },
   {
    "week": 11,
-   "start": "2027-02-01",
-   "phase": "Specifiek",
+   "start": "2027-02-08",
+   "phase": "Opbouw",
    "sessions": [
     {
-     "date": "2027-02-01",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-02-02",
+     "date": "2027-02-09",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-03",
+     "date": "2027-02-11",
      "type": "quality",
-     "title": "MP-blokken",
-     "km": 14,
-     "desc": "3 km inlopen, 2× 4 km MP / 1 km rustig, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 9.6,
+     "desc": "3 km op 5:50 - 6:20 min/km | 4 x (1000 m op 5:05 min/km + 400 m op 6:20 - 6:50 min/km) | 1 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-04",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "date": "2027-02-12",
+     "type": "quality",
+     "title": "III · Tempoloop",
+     "km": 10.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 5 km op 5:20 min/km | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-05",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-02-06",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-02-07",
+     "date": "2027-02-14",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 30,
-     "desc": "Rustig (E), oefen je racevoeding (gel elke 35–40')"
+     "title": "IV · Lange duurloop",
+     "km": 30.0,
+     "desc": "30 km op 5:50 - 6:20 min/km, verdeeld over km 29 en 30 doe je 4 strides"
     }
    ]
   },
   {
    "week": 12,
-   "start": "2027-02-08",
-   "phase": "Herstel",
+   "start": "2027-02-15",
+   "phase": "Specifiek",
    "sessions": [
     {
-     "date": "2027-02-08",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-02-09",
+     "date": "2027-02-16",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-10",
+     "date": "2027-02-18",
      "type": "quality",
-     "title": "Strides",
-     "km": 9,
-     "desc": "Rustig (E) met 6× 20\" versnellingen"
+     "title": "II · Interval / tempo",
+     "km": 12.8,
+     "desc": "3 km op 5:50 - 6:20 min/km | 4 x (400 m op 4:35 min/km + 200 m op 6:20 - 6:50 min/km) | 400 m op 6:20 - 6:50 min/km | 2 x (1600 m op 5:05 min/km + 400 m op 6:20 - 6:50 min/km) | 2 km op 5:20 min/km | 1 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-11",
+     "date": "2027-02-19",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-12",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-02-13",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 8,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-02-14",
+     "date": "2027-02-21",
      "type": "long",
-     "title": "Trainingrun Two Rivers",
-     "km": 30,
-     "desc": "Two Rivers trainingrun #4 (parcoursverkenning). Start 10:00. Vorig jaar kon je 15 of 30 km kiezen. Dit vervangt de toetswedstrijd: loop de lange afstand, het eerste deel rustig en het laatste deel in de 5:00/5:30-groep op MP. Test hier je schoenen en voeding.",
-     "event": true
+     "title": "IV · Lange duurloop",
+     "km": 24.0,
+     "desc": "24 km op 5:50 - 6:20 min/km, verdeeld over km 23 en 24 doe je 4 strides"
     }
    ]
   },
   {
    "week": 13,
-   "start": "2027-02-15",
+   "start": "2027-02-22",
    "phase": "Specifiek",
    "sessions": [
     {
-     "date": "2027-02-15",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-02-16",
+     "date": "2027-02-23",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-17",
+     "date": "2027-02-25",
      "type": "quality",
-     "title": "Tempo",
-     "km": 14,
-     "desc": "3 km inlopen, 3× 12' tempo (T) / 2' dribbel, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 10.8,
+     "desc": "4 km op 5:50 - 6:20 min/km | 8 x (400 m op 4:35 min/km + 200 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-18",
+     "date": "2027-02-26",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-19",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-02-20",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-02-21",
+     "date": "2027-02-28",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 32,
-     "desc": "Rustig (E), laatste 6 km richting MP"
+     "title": "IV · Lange duurloop met tempoblokken",
+     "km": 32.0,
+     "desc": "4 km op 5:50 - 6:20 min/km | 6 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 5 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 4 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 3 km op 5:20 min/km - 1 km op 6:20 - 6:50 min/km | 2 km op 5:20 min/km | 4 km op 5:50 - 6:20 min/km"
     }
    ]
   },
   {
    "week": 14,
-   "start": "2027-02-22",
+   "start": "2027-03-01",
    "phase": "Specifiek",
    "sessions": [
     {
-     "date": "2027-02-22",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-02-23",
+     "date": "2027-03-02",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 12.0,
+     "desc": "12 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-24",
+     "date": "2027-03-04",
      "type": "quality",
-     "title": "Intervallen",
-     "km": 13,
-     "desc": "3 km inlopen, 6× 1000 m (I) / 400 m dribbel, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 14.6,
+     "desc": "3 km op 5:50 - 6:20 min/km | 8 x (800 m op 4:50 min/km + 400 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-25",
+     "date": "2027-03-05",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-02-26",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-02-27",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-02-28",
+     "date": "2027-03-07",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 28,
-     "desc": "Rustig met 16 km op MP — generale repetitie (kleding, ontbijt, gels)"
+     "title": "IV · Lange duurloop",
+     "km": 24.0,
+     "desc": "24 km op 5:50 - 6:20 min/km, verdeeld over km 23 en 24 doe je 4 strides"
     }
    ]
   },
   {
    "week": 15,
-   "start": "2027-03-01",
-   "phase": "Specifiek",
+   "start": "2027-03-08",
+   "phase": "Taper",
    "sessions": [
     {
-     "date": "2027-03-01",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-03-02",
+     "date": "2027-03-09",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E), praattempo"
+     "title": "I · Rustige duurloop",
+     "km": 10.0,
+     "desc": "10 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-03-03",
+     "date": "2027-03-11",
      "type": "quality",
-     "title": "MP-blokken",
-     "km": 15,
-     "desc": "3 km inlopen, 3× 3 km MP / 1 km rustig, uitlopen"
+     "title": "II · Interval / tempo",
+     "km": 10.6,
+     "desc": "3 km op 5:50 - 6:20 min/km | 4 x (1000 m in 4:55 min + 400 m op 6:20 - 6:50 min/km) | 2 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-03-04",
+     "date": "2027-03-12",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 11,
-     "desc": "Rustig (E)"
+     "title": "III · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km"
     },
     {
-     "date": "2027-03-05",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-03-06",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 10,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-03-07",
+     "date": "2027-03-14",
      "type": "long",
-     "title": "Lange duurloop",
-     "km": 32,
-     "desc": "Rustig (E) — langste en laatste echt lange loop"
+     "title": "IV · Lange duurloop met tempoblokken",
+     "km": 16.0,
+     "desc": "6 km op 5:50 - 6:20 min/km | 4 km op 5:20 min/km | 6 km op 5:50 - 6:20 min/km"
     }
    ]
   },
   {
    "week": 16,
-   "start": "2027-03-08",
-   "phase": "Taper",
-   "sessions": [
-    {
-     "date": "2027-03-08",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
-     "date": "2027-03-09",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E), praattempo"
-    },
-    {
-     "date": "2027-03-10",
-     "type": "quality",
-     "title": "Tempo kort",
-     "km": 11,
-     "desc": "3 km inlopen, 2× 8' tempo (T), uitlopen"
-    },
-    {
-     "date": "2027-03-11",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 9,
-     "desc": "Rustig (E)"
-    },
-    {
-     "date": "2027-03-12",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
-    },
-    {
-     "date": "2027-03-13",
-     "type": "easy",
-     "title": "Rustig + strides",
-     "km": 8,
-     "desc": "Rustig (E), eindig met 4× 20\" versnelling"
-    },
-    {
-     "date": "2027-03-14",
-     "type": "long",
-     "title": "Lange duurloop",
-     "km": 22,
-     "desc": "Rustig met 8 km op MP"
-    }
-   ]
-  },
-  {
-   "week": 17,
    "start": "2027-03-15",
    "phase": "Taper",
    "sessions": [
     {
-     "date": "2027-03-15",
-     "type": "cross",
-     "title": "Schaatsen of rust",
-     "min": 30,
-     "desc": "Rustig schaatsen (aerobe cross-training, ontlast de benen). Of rustdag."
-    },
-    {
      "date": "2027-03-16",
      "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 8,
-     "desc": "Rustig (E), praattempo"
-    },
-    {
-     "date": "2027-03-17",
-     "type": "quality",
-     "title": "Scherp houden",
-     "km": 8,
-     "desc": "2 km inlopen, 4× 1 km MP / 2' dribbel, uitlopen"
+     "title": "I · Rustige duurloop",
+     "km": 8.0,
+     "desc": "8 km op 5:50 - 6:20 min/km"
     },
     {
      "date": "2027-03-18",
-     "type": "easy",
-     "title": "Rustige duurloop",
-     "km": 6,
-     "desc": "Rustig (E), kort"
+     "type": "quality",
+     "title": "II · Interval / tempo",
+     "km": 10.0,
+     "desc": "3 km op 5:50 - 6:20 min/km | 5 km op 5:20 min/km | 2 km op 5:50 - 6:20 min/km"
     },
     {
      "date": "2027-03-19",
-     "type": "rest",
-     "title": "Rust",
-     "desc": "Rust, mobiliteit of 20' kracht/core"
+     "type": "easy",
+     "title": "III · Rustige duurloop",
+     "km": 6.0,
+     "desc": "6 km op 5:50 - 6:20 min/km"
     },
     {
      "date": "2027-03-20",
      "type": "easy",
-     "title": "Shake-out",
-     "km": 6,
-     "desc": "20' heel rustig, 3 korte versnellingen"
+     "title": "Losloopje",
+     "km": 4.6,
+     "desc": "30 minuten op 6:20 - 6:50 min/km (dag voor de marathon)",
+     "min": 30
     },
     {
      "date": "2027-03-21",
      "type": "race",
-     "title": "Marathon",
+     "title": "V · Two Rivers Marathon",
      "km": 42.2,
-     "desc": "🏁 TWO RIVERS MARATHON — Zaltbommel"
+     "desc": "MARATHON op 5:20 min/km"
     }
    ]
   }
- ]
+ ],
+ "synced": "2026-11-24"
 }

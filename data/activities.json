@@ -1,6 +1,6 @@
 {
  "source": "strava",
- "updated": "2026-11-23T15:00:00",
+ "updated": "2026-11-27T08:38:10",
  "activities": [
   {
    "id": "19132690182",
@@ -1013,6 +1013,72 @@
    "elev": 19,
    "re": 20,
    "hr": 140.4
+  },
+  {
+   "id": "21098809404",
+   "date": "2026-11-23T20:01:38",
+   "sport": "IceSkate",
+   "name": "Avondrit schaatsen",
+   "km": 0,
+   "moving_s": 1839,
+   "elev": 0,
+   "re": 2,
+   "hr": null
+  },
+  {
+   "id": "21099217555",
+   "date": "2026-11-23T20:06:06",
+   "sport": "IceSkate",
+   "name": "Schaatsen - De Scheg",
+   "km": 8.37,
+   "moving_s": 1795,
+   "elev": 2,
+   "re": null,
+   "hr": null
+  },
+  {
+   "id": "21103371271",
+   "date": "2026-11-24T06:04:42",
+   "sport": "Run",
+   "name": "Ochtendloop",
+   "km": 11.12,
+   "moving_s": 3485,
+   "elev": 14,
+   "re": 17,
+   "hr": null
+  },
+  {
+   "id": "21118590162",
+   "date": "2026-11-25T12:10:08",
+   "sport": "Run",
+   "name": "Middagloop",
+   "km": 7.15,
+   "moving_s": 2093,
+   "elev": 22,
+   "re": 15,
+   "hr": null
+  },
+  {
+   "id": "21127750993",
+   "date": "2026-11-26T05:59:14",
+   "sport": "Run",
+   "name": "Ochtendloop",
+   "km": 11.12,
+   "moving_s": 3552,
+   "elev": 13,
+   "re": 20,
+   "hr": null
+  },
+  {
+   "id": "21139516119",
+   "date": "2026-11-27T06:04:19",
+   "sport": "Run",
+   "name": "Ochtendloop",
+   "km": 11.1,
+   "moving_s": 3566,
+   "elev": 15,
+   "re": 24,
+   "hr": null
   }
  ]
 }
